@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Test CRUD methods in users" skipped="2" tests="5" time="0.68" timestamp="2021-08-03 05:11:39"><testcase name="To Verify Get User"><error type="java.lang.AbstractMethodError"/><system-err>null&#13;
+io.restassured.internal.ResponseParserRegistrar.&lt;init&gt;(ResponseParserRegistrar.groovy:44)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1448)&#13;
+io.restassured.RestAssured.when(RestAssured.java:673)&#13;
+methods.BDDStyleMethods.GetUsers(BDDStyleMethods.java:13)&#13;
+apiGlueCode.GetAllUsers.i_submit_the_Get_request(GetAllUsers.java:40)&#13;
+✽.I submit the Get request(src/test/resources/apiFeatures/APIScript.feature:5)&#13;
+</system-err></testcase><testcase name="To verify Single Get User"><error type="java.lang.AbstractMethodError"/><system-err>null&#13;
+io.restassured.internal.ResponseParserRegistrar.&lt;init&gt;(ResponseParserRegistrar.groovy:44)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1448)&#13;
+io.restassured.RestAssured.when(RestAssured.java:673)&#13;
+methods.BDDStyleMethods.GetSingleUser(BDDStyleMethods.java:18)&#13;
+apiGlueCode.GetSingleUser.i_Submit_the_request_for_Get_User(GetSingleUser.java:26)&#13;
+✽.I Submit the request for Get User(src/test/resources/apiFeatures/APIScript.feature:10)&#13;
+</system-err></testcase><testcase name="TO Verify the Create User"><error type="java.lang.AbstractMethodError"/><system-err>null&#13;
+io.restassured.internal.ResponseParserRegistrar.&lt;init&gt;(ResponseParserRegistrar.groovy:44)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1448)&#13;
+io.restassured.RestAssured.given(RestAssured.java:653)&#13;
+methods.BDDStyleMethods.CreateNewUser(BDDStyleMethods.java:23)&#13;
+apiGlueCode.CreateUser.i_submit_the_post_request(CreateUser.java:28)&#13;
+✽.I submit the post request(src/test/resources/apiFeatures/APIScript.feature:15)&#13;
+</system-err></testcase><testcase name="To Verify the Update User"><skipped/></testcase></testsuite>

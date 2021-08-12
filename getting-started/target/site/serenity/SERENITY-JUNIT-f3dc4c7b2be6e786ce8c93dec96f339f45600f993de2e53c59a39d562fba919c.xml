@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Test CRUD methods in users" skipped="4" tests="5" time="0.57" timestamp="2021-08-04 11:30:57"><testcase name="To Verify Get Employee"><error type="java.lang.AbstractMethodError"/><system-err>null&#13;
+io.restassured.internal.ResponseParserRegistrar.&lt;init&gt;(ResponseParserRegistrar.groovy:44)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1448)&#13;
+io.restassured.RestAssured.given(RestAssured.java:653)&#13;
+methods.BDDStyleMethods.GetEmployee(BDDStyleMethods.java:19)&#13;
+apiGlueCode.GetEmployee.i_submit_the_Get_request(GetEmployee.java:41)&#13;
+✽.I submit the Get request(src/test/resources/apiFeatures/APIScript.feature:5)&#13;
+</system-err></testcase><testcase name="To verify Single Get Employee"><skipped/></testcase><testcase name="TO Verify the Create Employee"><skipped/></testcase><testcase name="To Verify the Update User"><skipped/></testcase></testsuite>
